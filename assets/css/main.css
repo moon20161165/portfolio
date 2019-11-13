@@ -1489,6 +1489,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
+			border-radius: 15px;
 		}
 
 		.image.featured {
@@ -1771,9 +1772,9 @@ input, select, textarea {
 		input[type="reset"].style2,
 		button.style2,
 		.button.style2 {
-			color: #3a3939;
-			background: #fff;
-			box-shadow: inset 0 0 0 1px #fff;
+			color: #2c2c2c;
+			background: rgba(255, 255, 255, 0.753);
+			box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.671);
 		}
 
 			input[type="button"].style2:hover,
@@ -1791,9 +1792,9 @@ input, select, textarea {
 		input[type="reset"].style3,
 		button.style3,
 		.button.style3 {
-			background: rgba(0, 0, 139, 0.767);
-			color: rgba(0, 0, 139, 0.767);
-			box-shadow: inset 0 0 0 1px rgba(0, 0, 139, 0.767);
+			background: #2c2c2c;
+			color: #2c2c2c;
+			box-shadow: inset 0 0 0 1px #2c2c2c;
 		}
 
 			input[type="button"].style3:hover,
@@ -1802,7 +1803,7 @@ input, select, textarea {
 			button.style3:hover,
 			.button.style3:hover {
 				background: #fff;
-				color: rgba(0, 0, 139, 0.767) !important;
+				color: #2c2c2c !important;
 			}
 
 /* Box */
@@ -1898,9 +1899,10 @@ input, select, textarea {
 
 			.box.style2 header {
 				display: inline-block;
-				background: #fff;
+				background: rgba(255, 255, 255, 0.671);
 				padding: 2em 3em 2em 3em;
 				margin: 0;
+				border-radius: 20px;
 			}
 
 				.box.style2 header p {
@@ -1943,8 +1945,9 @@ input, select, textarea {
 				}
 
 		.box.style3 {
-			background: #fff;
+			background: rgba(255, 255, 255, 0.671);
 			padding: 3em;
+			border-radius: 20px;
 		}
 
 			.box.style3 header {
@@ -2086,10 +2089,10 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		color: darkblue;
+		color: #2c2c2c;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #fff url("") bottom center no-repeat;
+		background: rgba(255, 255, 255, 0.671) url("") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2353,12 +2356,12 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("../../images/sky.jpg"), url("../../images/bg-alt.jpg");
+				/*background-color: #203936; */
+				background-image: url("../../images/sky.jpg"), url("../../images/sky.jpg");
 				background-repeat: repeat, no-repeat;
-				background-size: auto, 100% auto;
+				background-size: auto, cover;
 				background-position: top left, top center;
-				background-attachment: scroll, scroll;
+				background-attachment: fixed, fixed;
 				font-size: 14pt;
 			}
 
