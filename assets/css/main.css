@@ -1957,7 +1957,7 @@ input, select, textarea {
 /* Icons */
 
 	.icon {
-		text-decoration: none;
+		display: inline-block;
 		text-decoration: none;
 	}
 
@@ -1983,6 +1983,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
+			display: inline-block;
 			font-weight: 900;
 		}
 
